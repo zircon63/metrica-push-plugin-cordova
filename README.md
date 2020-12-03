@@ -10,6 +10,12 @@ Sample project to use is available at [sample/][GitHubSAMPLE].
 ## Installation
 ```bash
 cordova plugin add yandex-appmetrica-push-plugin-cordova
+
+Android Manifest:
+`
+            <meta-data android:name="ymp_firebase_default_app_id" android:value="firebase_id" />
+            <meta-data android:name="ymp_gcm_default_sender_id" android:value="number:sender_id" />
+`
 ```
 
 It is also possible to install via repo url directly *(not recomended)*:
